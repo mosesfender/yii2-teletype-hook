@@ -1,0 +1,98 @@
+yii\web\Request#1
+(
+    [yii\base\Component:_events] => []
+    [yii\base\Component:_eventWildcards] => []
+    [yii\base\Component:_behaviors] => null
+    [yii\base\Request:_scriptFile] => null
+    [yii\base\Request:_isConsoleRequest] => null
+    [enableCsrfValidation] => false
+    [csrfParam] => '_csrf'
+    [csrfCookie] => [
+        'httpOnly' => true
+    ]
+    [enableCsrfCookie] => true
+    [enableCookieValidation] => true
+    [cookieValidationKey] => '_uRtdnT7R510_'
+    [methodParam] => '_method'
+    [parsers] => [
+        'application/json' => 'yii\\web\\JsonParser'
+    ]
+    [trustedHosts] => []
+    [secureHeaders] => [
+        0 => 'X-Forwarded-For'
+        1 => 'X-Forwarded-Host'
+        2 => 'X-Forwarded-Proto'
+        3 => 'X-Forwarded-Port'
+        4 => 'Front-End-Https'
+        5 => 'X-Rewrite-Url'
+        6 => 'X-Original-Host'
+    ]
+    [ipHeaders] => [
+        0 => 'X-Forwarded-For'
+    ]
+    [portHeaders] => [
+        0 => 'X-Forwarded-Port'
+    ]
+    [secureProtocolHeaders] => [
+        'X-Forwarded-Proto' => [
+            0 => 'https'
+        ]
+        'Front-End-Https' => [
+            0 => 'on'
+        ]
+    ]
+    [yii\web\Request:_cookies] => null
+    [yii\web\Request:_headers] => yii\web\HeaderCollection#2
+    (
+        [yii\web\HeaderCollection:_headers] => [
+            'host' => [
+                0 => 'tthook.siunov.ru'
+            ]
+            'accept' => [
+                0 => '*/*'
+            ]
+            'x-signature' => [
+                0 => '8990fbe98f05a31fa76a62b1c225294af6b4d403'
+            ]
+            'content-type' => [
+                0 => 'application/x-www-form-urlencoded; charset=UTF-8'
+            ]
+            'content-length' => [
+                0 => '1580'
+            ]
+            'expect' => [
+                0 => '100-continue'
+            ]
+            'x-backend' => [
+                0 => '78.110.50.106_820'
+            ]
+        ]
+        [yii\web\HeaderCollection:_originalHeaderNames] => [
+            'host' => 'host'
+            'accept' => 'accept'
+            'x-signature' => 'x-signature'
+            'content-type' => 'content-type'
+            'content-length' => 'content-length'
+            'expect' => 'expect'
+            'x-backend' => 'x-backend'
+        ]
+    )
+    [yii\web\Request:_rawBody] => null
+    [yii\web\Request:_bodyParams] => null
+    [yii\web\Request:_queryParams] => null
+    [yii\web\Request:_hostInfo] => null
+    [yii\web\Request:_hostName] => null
+    [yii\web\Request:_baseUrl] => ''
+    [yii\web\Request:_scriptUrl] => '/index.php'
+    [yii\web\Request:_scriptFile] => null
+    [yii\web\Request:_pathInfo] => 'teletype/hook'
+    [yii\web\Request:_url] => '/teletype/hook'
+    [yii\web\Request:_ip] => null
+    [yii\web\Request:_port] => null
+    [yii\web\Request:_securePort] => null
+    [yii\web\Request:_contentTypes] => null
+    [yii\web\Request:_languages] => null
+    [yii\web\Request:_csrfToken] => null
+    [yii\web\Request:_secureForwardedHeaderTrustedParts] => null
+    [yii\web\Request:_secureForwardedHeaderParts] => null
+)

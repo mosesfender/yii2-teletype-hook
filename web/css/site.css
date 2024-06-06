@@ -1,0 +1,20 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    font-family: Calibri, sans-serif;
+    font-size: 1rem;
+    color: #600;
+}
+
+.logs {
+    display: flex;
+    flex-direction: column;
+}
+
+.logs > textarea {
+    min-height: 30vh;
+}
+
+.logs > label {
+    margin-top: 3em;
+}

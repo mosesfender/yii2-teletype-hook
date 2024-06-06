@@ -1,0 +1,12 @@
+AuthType Basic
+AuthName "Restricted Content"
+AuthUserFile /home/srv72706/htdocs/htdocs/teletype-chat/web/.htpasswd
+Require valid-user
+
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# otherwise forward the request to index.php
+RewriteRule . index.php
